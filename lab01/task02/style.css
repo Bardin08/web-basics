@@ -1,0 +1,45 @@
+.content {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container,
+.flex-container {
+  height: 200px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  background-color: #63d8f2;
+}
+
+.img {
+  background-color: #11a1c1;
+}
+
+.img-left {
+  background-color: #965bae;
+  width: 50%;
+  height: 100%;
+}
+
+.text-right {
+  background-color: #11a1c1;
+  width: 50%;
+  height: 100%;
+}
+
+.container,
+.img-left,
+.text-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
