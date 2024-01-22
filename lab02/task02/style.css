@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 300px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#colorPickerContainer {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
