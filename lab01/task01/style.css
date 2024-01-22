@@ -1,0 +1,41 @@
+.content {
+  color: #fff;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container,
+.box-container {
+  height: 200px;
+}
+
+.text {
+  background-color: #63d8f2;
+}
+
+.img {
+  background-color: #11a1c1;
+}
+
+.img-left {
+  float: left;
+  width: 50%;
+  background-color: #965bae;
+  height: 100%;
+}
+
+.text-right {
+  float: right;
+  width: 50%;
+  background-color: #11a1c1;
+  height: 100%;
+}
+
+.container,
+.img-left,
+.text-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
