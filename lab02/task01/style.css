@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+input.invalid {
+  border: 2px solid red;
+}

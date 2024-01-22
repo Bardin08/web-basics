@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lab 2 Task 1</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="name">Прізвище та ініціали:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        pattern="[А-ЩЬЮЯҐЄІЇа-щьюяґєії]+\s[А-ЩЬЮЯҐЄІЇа-щьюяґєії]\.[А-ЩЬЮЯҐЄІЇа-щьюяґєії]\."
+        required
+      />
+
+      <label for="group">Група:</label>
+      <input
+        type="text"
+        id="group"
+        name="group"
+        pattern="[А-ЩЬЮЯҐЄІЇа-щьюяґєії]{2}-\d{2}"
+        required
+      />
+
+      <label for="phone">Телефон:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="\(\d{3}\)-\d{3}-\d{2}-\d{2}"
+        required
+      />
+
+      <label for="idCard">ID-картка:</label>
+      <input
+        type="text"
+        id="idCard"
+        name="idCard"
+        pattern="[А-ЩЬЮЯҐЄІЇа-щьюяґєії]{2} №\d{6}"
+        required
+      />
+
+      <label for="faculty">Факультет:</label>
+      <input
+        type="text"
+        id="faculty"
+        name="faculty"
+        pattern="[А-ЩЬЮЯҐЄІЇа-щьюяґєії]{4}"
+        required
+      />
+
+      <button type="button" onclick="validateAndSubmit()">Відправити</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
